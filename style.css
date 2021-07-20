@@ -1,0 +1,340 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+header{
+	color: white;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	display: flex;
+	justify-content: flex-end;
+}
+
+ header button{
+	margin: 10px 50px 10px 10px;
+	padding: 10px 20px 10px 20px;
+	cursor:pointer;
+	font-family: cursive;
+	font-size: 15px;
+	
+}
+
+#search{
+	margin: 13px 0 0 0;
+
+}
+header input{
+
+	line-height: 30px;
+	
+
+
+}
+
+.logo{
+	font-family: cursive;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#main{
+	
+	background: grey;
+	display: flex;
+
+
+}
+
+aside{
+	display: flex;
+
+	flex-direction: column;
+	
+	
+	margin: 10px, 5px, 5px, 3px;
+	padding:2px;
+}
+
+aside div{
+	background: white;
+	padding-left: 10px;
+	font-family: bold;
+	font-size: 20px;
+
+
+}
+
+aside p{
+	color: red;
+	font-size: 25px;
+	margin: 10px,0px,0px,0px;
+}
+aside input{
+	margin: 6px;
+
+}
+.photo{
+	display: flex;
+    flex-wrap: wrap;
+	
+	border: 1px;
+
+	
+	padding: 10px;
+	flex-basis: 20%;
+
+
+
+
+}
+
+
+
+.box1{
+	
+    cursor: pointer;
+	min-height: 300px;
+	min-width: 400px;
+	background-image: url(3.jpg);
+	background-size: cover;
+	margin:6px;
+   }
+
+.box2{
+	cursor: pointer;
+	min-height: 300px;
+	min-width: 400px;
+	background-image: url(6.jpg);
+	background-size: cover;
+	margin:6px;
+}
+.box3{
+	cursor: pointer;
+	min-height: 300px;
+	min-width: 400px;
+	background-image: url(7.jpg);
+	background-size: cover;
+	margin:6px;
+   }
+
+.box4{
+	cursor: pointer;
+	min-height: 450px;
+	min-width: 610px;
+	background-image: url(italian.jpg);
+	background-size: cover;
+	margin:5px;
+   }  
+.box5{
+	cursor: pointer;
+	min-height: 450px;
+	min-width: 610px;
+	background-image: url(chiness.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:5px;
+   }
+.con{
+	
+	display: flex;
+	flex-direction: row;
+	background: white;
+	margin: 10px 10px 10px 10px;
+	padding: 0px;
+}
+
+.con button{
+	margin: 5px;
+	border-radius: 2px;
+
+} 
+
+
+.write{
+
+	padding: 10px;
+	margin: 0px;
+} 
+
+.write h2{
+	margin: 0px;
+	padding: 0px; 
+} 
+
+.write h4{
+	margin: 15px 0 0 0;
+	padding: 0px;
+	color: blue;
+	font-family: sans-serif;
+}
+
+.write h3{
+	color: grey;
+}
+
+.boxx1{
+	cursor: pointer;
+	background-image: url(north.jpg);
+	background-size: cover;
+	min-width: 300px;
+	min-height: 250px;
+	
+
+
+}
+.boxx2{
+	cursor: pointer;
+	background-image: url(pizza.jpg);
+	background-size: cover;
+	min-width: 300px;
+	min-height: 250px;
+	
+
+
+}
+.boxx3{
+	cursor: pointer;
+	background-image: url(cake.jpg);
+	background-size: cover;
+	min-width: 300px;
+	min-height: 250px;
+	
+
+
+}
+.boxx4{
+	cursor: pointer;
+	background-image: url(indian.jpg);
+	background-size: cover;
+	min-width: 300px;
+	min-height: 250px;
+	
+
+
+}
+article{
+	display: flex;
+	flex-direction: column;
+}            
+
+article button {
+	margin: 0;
+	padding: 0;
+
+}  
+
+.box{
+	color: white;
+	background:rgba(0,0,0,0.5); 
+	display:block;
+	
+	
+	font-family: cursive;
+	font-size: 30px;
+
+} 
+
+.low{
+	font-size: 14px;
+	color: grey;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+#read{
+	border-color: crimson;
+	color: crimson;
+	border-radius: 2px;
+	width: 120px;
+	height: 35px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+footer{
+	background: #353935;
+	color: #EBE3E1;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin:0px;
+}
+
+
+
+
+@media screen and (max-width:600px){
+
+	aside{
+		display: none;
+	}
+
+	article{ margin: 5px; }
+
+	.con{
+		display: flex;
+		flex-direction: column;
+		width: 95%;
+		margin-bottom: 5px;
+		
+	}
+
+	footer{
+		display: flex;
+		flex-direction: column;
+
+	}
+	header{
+		
+	}
+
+	.photo{
+		margin: 15px;
+	}
+
+	.ft{
+		margin-bottom: 15px;
+		
+	}
+
+
+
+
+
+	.box4{
+		min-height: 300px;
+		min-width: 400px;
+	}
+
+	
+
+	.box5{
+		min-height: 300px;
+		min-width: 400px;
+	}
+
+
+	
+
+
+
+	
+	
+	
+	
+
+}
+
+
+
+
+
+
